@@ -1,0 +1,148 @@
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+}
+.navbar {
+  background: #fff;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* 4) Logo */
+.navbar .logo {
+  display: block;
+  width: 226px;
+  height: 44px;
+}
+.navbar .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+}
+.navbar .menu li { list-style: none; }
+.navbar .menu a {
+  text-decoration: none;
+  color: #777;
+}
+.navbar .menu a:hover,
+.navbar .menu a:focus-visible {
+  color: #1f6fff;
+}
+
+.btn-register {
+  display: flex;
+  gap: 8px;
+}
+.btn {
+  padding: 10px 16px;
+  border-radius: 999px;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background: #fff;
+}
+.login-btn {
+  border-color: #1f6fff;
+  color: #1f6fff;
+  background: #fff;
+}
+.signup-btn {
+  border-color: #1f6fff;
+  background: #1f6fff;
+  color: #fff;
+}
+
+.container__section {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.container__section_left h1 {
+    font-size: 80px;
+    color: black;
+    font-weight: 700;
+}
+
+.container__section_left .left__p {
+    font-size: 20px;
+    color: gray;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.container_cards {
+    width: 670px;
+    height: 151px;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    gap: 80px;
+    margin-bottom: 30px;
+    /* padding-left: 30px; */
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.container_cards .card_post {
+    margin-top: -25px;
+}
+
+
+.container_cards .card_post h3 {
+    /* margin-top: -2px; */
+    font-size: 36px;
+    font-weight: bold;
+    color: #415FFF;
+}
+
+.container_cards .card_post p {
+    color: #7a7a7a;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -25px;
+}
+
+.container__section_left .card_btn {
+    width: 190px;
+    height: 72px;
+    background-color: #415FFF;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar .container { padding: 16px; gap: 16px; }
+  .navbar .menu { gap: 16px; font-size: 16px; flex-wrap: wrap; }
+  .navbar .logo { width: 160px; height: 32px; }
+}
+
