@@ -11,4 +11,3 @@ Bu loyiha — **Consultant veb-sayti** bo‘lib, hozircha faqat **header qismi**
 - CSS3
 
 git clone https://github.com/Avazbek-Abduraxmonov/Consultant.git
-cd consultant-website
