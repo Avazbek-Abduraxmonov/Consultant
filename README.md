@@ -1,13 +1,17 @@
 # Consultant
 
-Bu loyiha — **Consultant veb-sayti** bo‘lib, hozircha faqat **header qismi** tayyorlangan. Keyinchalik sayt to‘liq shakllantiriladi.  
+Bu loyiha — **Consultant veb-sayti** bo‘lib, hozircha **header** va **bitta section** qismi tayyorlangan. Keyinchalik sayt to‘liq shakllantiriladi.  
 
-## Hozirgi holat
+## 📌 Hozirgi holat
 - ✅ Header dizayni va tuzilishi qo‘shildi  
-- ⏳ Asosiy bo‘limlar, footer va funksiyalar hali ishlanmagan  
+- ✅ Bitta section qismi tayyorlandi  
+- ⏳ Qolgan bo‘limlar (asosiy content, footer va funksiyalar) hali ishlanmagan  
 
-## Texnologiyalar
+## 🛠 Texnologiyalar
 - HTML5  
-- CSS3
+- CSS3  
 
-git clone https://github.com/Avazbek-Abduraxmonov/Consultant.git
+## 🚀 Loyihani ishlatish
+1. Repository’ni klon qiling:  
+   ```bash
+   git clone https://github.com/Avazbek-Abduraxmonov/Consultant.git
