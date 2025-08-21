@@ -4,7 +4,8 @@ Bu loyiha — **Consultant veb-sayti** bo‘lib, hozircha **header** va **bitta 
 
 ## 📌 Hozirgi holat
 - ✅ Header dizayni va tuzilishi qo‘shildi  
-- ✅ Bitta section qismi tayyorlandi  
+- ✅ Ikkita section qismi tayyorlandi
+- ✅ Media (Responsive) qismi tayyorlanayabdi va bir ikkita o'zgartirishlar kiritildi
 - ⏳ Qolgan bo‘limlar (asosiy content, footer va funksiyalar) hali ishlanmagan  
 
 ## 🛠 Texnologiyalar
